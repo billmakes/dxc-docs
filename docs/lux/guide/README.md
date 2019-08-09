@@ -107,3 +107,27 @@ Add the following lines to your VS Code User Settings:
 ```
 
 Note: If you have any conflicting user settings for prettier or eslint, this may not work as intended
+
+### Example VS Code User Settings
+
+```
+{
+ "eslint.validate": [
+ {
+ "language": "vue",
+ "autoFix": true
+ },
+ {
+ "language": "javascript",
+ "autoFix": true
+ },
+ {
+ "language": "javascriptreact",
+ "autoFix": true
+ }
+ ],
+ "eslint.autoFixOnSave": true,
+ "editor.formatOnSave": false,
+ "vetur.validation.template": false
+}
+```
