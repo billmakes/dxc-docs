@@ -1,6 +1,5 @@
 module.exports = {
   title: "DXC Project Documentation",
-  // dest: "../../public",
   base: "dxc-docs",
   themeConfig: {
     logo:
